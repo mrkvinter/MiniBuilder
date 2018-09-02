@@ -35,9 +35,15 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - CameraDeadZone
+  - Floor
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Platform
+    uniqueID: 4041765949
+    locked: 0
+  - name: Player
+    uniqueID: 3856167137
     locked: 0
