@@ -32,9 +32,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Block
+  - Player
+  - BlokResource
   - CameraDeadZone
   - Floor
   m_SortingLayers:
@@ -44,6 +44,15 @@ TagManager:
   - name: Platform
     uniqueID: 4041765949
     locked: 0
+  - name: PlatformFore
+    uniqueID: 217060833
+    locked: 0
+  - name: Foreground
+    uniqueID: 663261079
+    locked: 0
   - name: Player
     uniqueID: 3856167137
+    locked: 0
+  - name: UI
+    uniqueID: 3515941493
     locked: 0

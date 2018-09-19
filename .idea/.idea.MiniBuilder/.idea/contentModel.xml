@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mr.kvinter\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mr.kvinter\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_MiniBuilder.1098730569.00" t="ExcludeRecursive" />
+    <e p="D:\Work\Projects\MiniBuilder" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Engine" t="Include">
+          <e p="DataContainerController.cs" t="Include" />
+          <e p="DataContainers" t="Include">
+            <e p="BlockCountDataContainer.cs" t="Include" />
+            <e p="CoinsCountDataContainer.cs" t="Include" />
+            <e p="GroundedDataContainer.cs" t="Include" />
+            <e p="IDataContainer.cs" t="Include" />
+            <e p="ResourceCountDataContainer.cs" t="Include" />
+            <e p="VelocityMotionDataContainer.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="DataCintainerControllerEditor.cs" t="Include" />
+            <e p="ReorderableListExtend.cs" t="Include" />
+          </e>
+          <e p="PoolManager" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PoolTagEditor.cs" t="Include" />
+            </e>
+            <e p="PoolManager.cs" t="Include" />
+            <e p="PoolsGenerator.cs" t="Include" />
+          </e>
+          <e p="Singleton.cs" t="Include" />
+        </e>
+        <e p="FreeParallax" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="FreeParallax.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AnimatorPlayerSetter.cs" t="Include" />
+          <e p="BlockCountUiSyncer.cs" t="Include" />
+          <e p="BlockCreator.cs" t="Include" />
+          <e p="BlockDestroyer.cs" t="Include" />
+          <e p="CameraSynchronizer.cs" t="Include" />
+          <e p="CoinPickUpController.cs" t="Include" />
+          <e p="GODestroyer.cs" t="Include" />
+          <e p="GroundedChecker.cs" t="Include" />
+          <e p="HouseChanger.cs" t="Include" />
+          <e p="HouseChangerManager.cs" t="Include" />
+          <e p="LevelCompleteController.cs" t="Include" />
+          <e p="MotionController.cs" t="Include" />
+          <e p="OnClickListener.cs" t="Include" />
+          <e p="ParallaxController.cs" t="Include" />
+          <e p="ResourcePickUp.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
+          <e p="SpriteFlipper.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="MiniBuilder.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
