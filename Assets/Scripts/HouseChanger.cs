@@ -9,11 +9,17 @@ public class HouseChanger : MonoBehaviour
 	public SpriteRenderer SpriteRenderer;
 	public GameObject MessageLabel;
 	public GameObject Blip;
+	public GameObject Counter;
+	public AudioClip AudioClip;
+	public AudioSource AudioSource;
 	
-	void Start ()
+	public void StartChange ()
 	{
+		SpriteRenderer.sprite = HouseLevel[HouseChangerManager.Instance.CurrentState];
 		if (HouseChangerManager.Instance.CoinsCount >= 3)
 		{
+			Counter.SetActive(true);
+			HouseChangerManager.Instance.CurrentState++;
 			StartCoroutine(HouseChange());
 			MessageLabel.SetActive(true);
 		}
@@ -30,10 +36,10 @@ public class HouseChanger : MonoBehaviour
 		yield return new WaitForSeconds(3);
 		Blip.SetActive(true);
 		yield return new WaitForSeconds(0.35f);
-		SpriteRenderer.sprite = HouseLevel[HouseChangerManager.Instance.CurrentState + 1];
+		AudioSource.PlayOneShot(AudioClip);
+		SpriteRenderer.sprite = HouseLevel[HouseChangerManager.Instance.CurrentState];
 		yield return new WaitForSeconds(0.35f);
 		Blip.SetActive(false);
-		HouseChangerManager.Instance.CurrentState++;
 		HouseChangerManager.Instance.CoinsCount = 0;
 	}
 }
